@@ -30,10 +30,10 @@
               >
             </li>
             <li>
-              <a class="nav-list-item" href="" target="_blank">Portfolio</a>
+              <a class="nav-list-item" href="#portfolio" target="_blank">Portfolio</a>
             </li>
             <li>
-              <a class="nav-list-item" href="" target="_blank">Contacts</a>
+              <a class="nav-list-item" href="#footer" target="_blank">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -384,7 +384,7 @@
           </ul>
         </div>
       </section>
-      <section class="portfolio-section">
+      <section id="portfolio" class="portfolio-section">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="portfolio-section-list">
@@ -658,7 +658,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer-space">
+    <footer id="footer" class="footer-space">
       <div class="footer-container container">
         <div class="footer-logo-soc-wrapper">
           <div class="footer-logo-and-text">
@@ -742,6 +742,7 @@
                 type="text"
                 name="user-name"
                 id="user-name"
+                required
               />
               <svg class="form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-user-name-icon"></use>
@@ -756,6 +757,7 @@
                 type="tel"
                 name="user-phone"
                 id="user-phone"
+                required
               />
               <svg class="form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-user-phone-icon"></use>
@@ -793,6 +795,7 @@
               name="user-privacy"
               value="true"
               id="user-privacy"
+              required
             />
             <label for="user-privacy" class="modal-checkbox-label">
               <span class="user-privacy-span"
@@ -808,5 +811,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/script.js"></script>
   </body>
 </html>
